@@ -22,7 +22,7 @@
     text-decoration: none;
 }
 
-.header-right-link-img {
+.header-right-link-arrow {
     width: 30px;
 }
 
@@ -67,19 +67,37 @@ footer ul {
     font-weight:100;
     color: #FFF;
     text-decoration: none;
-
 }
 
-footer a:hover{
+.footer-anchor-img:hover {
+    position: relative;
+}
+
+.footer-anchor-img:hover:after {
+    content: url(../images/footer-img.png);
+    display: block;
+    position: absolute;
+    left: 300px;
+    top: -150px;
+    transform: scale(.7);
+    
+}
+
+.footer-anchor:hover{
     font-weight:700;
+    font-style:italic ;
 }
 
-
-.footer-right {
+.footer-right-link {
     color: #FFF;
     writing-mode: vertical-rl;
+    text-decoration: none;
 }
 
+.footer-right-link-arrow {
+    width:10px;
+    margin-left: -10px;
+}
 
 
 /****** Media Queries ***********/
@@ -99,5 +117,10 @@ footer a:hover{
 
     .header-right-link {
         padding: 10px 0;
+    }
+
+
+    .footer-right-link {
+        display: none;
     }
 }
