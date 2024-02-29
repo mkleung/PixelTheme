@@ -4,13 +4,11 @@
   <div class="row">
     <div class="col-md-5"></div>
     <div class="col-md-6">
-        <h1 class="title pt-5">
-            <!-- <span class="text-outline">projets</span> -->
-            projects
-            <!-- <span class="text-outline">projets</span> -->
-        </h1>
+        <!-- <h1 class="title pt-5 pb-5">
 
-        <?php echo get_stylesheet_directory_uri(); ?>
+            projets
+   
+        </h1> -->
     </div>
     </div>
 </div>
