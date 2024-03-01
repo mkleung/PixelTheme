@@ -33,31 +33,21 @@
 <!------ HEADER  ------------>
 
 <div class="container pt-5 pb-5">
-  <div class="row">
-    <div class="col-12 col-lg-5 offset-lg-1">
-        <div class="header-left pt-5">Nous préviligions une approche humaine avec nos clients.</div>
-    </div>
-    <div class="col-12 col-lg-3 offset-lg-2">
-        <div class="header-right">
-            <p>Passionnés par l'idéation et la créativité, nous sommes constamment à la recherche de nouvelles 
-                idées et solutions innovantes pour aider nos clients à se démarquer et à atteindre leurs objectifs.
-            </p>
-            <p>
-                Notre approche consiste à être à l'écoute de nos clients pour comprendre leurs idées, défis et 
-                objectifs spécifiques, afin de répondre à leurs besoins de manière personnalisée.
-            </p>
-
-          
-                <a class="header-right-link" href="/">
-                    <img class="header-right-link-img " src="<?php echo esc_url( get_template_directory_uri() . '/images/arrow-black.png' ); ?>" alt="" >
-                    <span class="px-3">Découvrez nos projets</span>
-                </a>
-           
+      <div class="row">
+        <div class="col-12 col-lg-5 offset-lg-1">
+          <div class="header-left pt-5">Nous préviligions une approche humaine avec nos clients.</div>
         </div>
+        <div class="col-12 col-lg-3 offset-lg-2">
+          <div class="header-right">
+            <p>Passionnés par l'idéation et la créativité, nous sommes constamment à la recherche de nouvelles idées et solutions innovantes pour aider nos clients à se démarquer et à atteindre leurs objectifs. </p>
+            <p> Notre approche consiste à être à l'écoute de nos clients pour comprendre leurs idées, défis et objectifs spécifiques, afin de répondre à leurs besoins de manière personnalisée. </p>
+            <a class="header-right-link" href="#projects">
+              <img class="header-right-link-arrow " src=" <?php echo esc_url( get_template_directory_uri() . '/images/arrow-black.png' ); ?>" alt="">
+              <span class="px-3">Découvrez nos projets</span>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-  </div>
-</div>
-
 
 
