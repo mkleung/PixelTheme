@@ -1,4 +1,8 @@
 
+# Pixel HTML/CSS theme
+
+Located inside html-version folder
+
 # Pixel WordPress theme
 
 Just put the theme in the wp-contents folder and activate it inside appearence > themes
